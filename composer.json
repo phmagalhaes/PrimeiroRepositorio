@@ -1,0 +1,28 @@
+{
+"'name":"phmagalhaes/phptips001",
+"description": "CONHECENDO O COMPOSER E CONFIGURANDO IDE | PHP TIPS #001",
+"minimum-stability": "stable",
+"License": "MIT",
+"authors": [
+    { 
+        "name": "Pedro H. Magalhães",
+        "email": "pedrohenrique.msantos.2001@gmail.com",
+        "role": "Developer",
+        "homepage": "https://upinside.com.br"
+    }
+ ],
+ "config": {
+    "vendor-dir": "vendor"
+ },
+ "autoload": {
+    "psr-4": {
+        "Source\\": "source/"
+    },
+    "files": [
+        "source/Config.php"
+    ]
+ },
+ "require": {
+    "phpmailer/phpmailer": "6.0.*"
+ }
+}
